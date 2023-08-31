@@ -1,0 +1,115 @@
+html, body{
+    margin: 0%;
+}
+
+header{
+    background-color: rgb(17, 121, 90) ;
+    color:  rgb(233, 245, 238) ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+width: 78px;
+position: absolute;
+top: 1px;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    top: 0%;
+
+}
+
+li{
+float: left;
+padding: 20px 20px 20px;
+}
+
+li:hover{
+    background-color: rgb(4, 77, 46);
+}
+
+#imagem_fundo{
+    background: url("./paisagem-natural-og.jpg");
+    height: 500px;
+    padding-right: 30px;
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    color: rgb(13, 90, 39);
+    padding-top: 10%;
+}
+#subtitulo{
+    color: rgb(13, 90, 39);
+}
+#acao{
+color: rgb(20, 27, 20);
+border: 1px rgb(26, 65, 42) solid;
+padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 400px;
+}
+#Objetivo{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    color: rgb(26, 65, 42) ;
+    font-size: 20px;
+    float: left;
+}
+#areadeatuacao{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    float: left;
+    color: rgb(13, 90, 39) ;
+
+}
+
+#Solucao{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(13, 90, 39);
+
+}
+.coluna{
+    float: left;
+    padding: 0 7%;
+    position: relative;
+    width: 30%;}
+
+#Footer{ text-align: center;
+background-color:rgb(17, 121, 90) ;}
+
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.colunatres{
+    width: 21%;
+    padding: 0 6%;
+    float: left;
+    text-align: justify;
+}
+@media all and (max-width: 768px) 
+{  
+    #menu{ visibility: hidden;
+    }
+    .coluna,.colunatres{
+        display: block;
+        width: 80px;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
