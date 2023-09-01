@@ -35,7 +35,7 @@ li:hover{
 }
 
 #imagem_fundo{
-    background: url("./paisagem-natural-og.jpg");
+    background: url(./img/paisagem-natural-og.jpg);
     height: 500px;
     padding-right: 30px;
     text-align: center;
