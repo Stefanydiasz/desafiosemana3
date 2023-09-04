@@ -38,6 +38,7 @@ li:hover{
     background: url(./img/paisagem-natural-og.jpg);
     height: 500px;
     padding-right: 30px;
+    padding: 1%;
     text-align: center;
     background-size: cover;
 }
@@ -107,9 +108,19 @@ background-color:rgb(17, 121, 90) ;}
     }
     .coluna,.colunatres{
         display: block;
-        width: 80px;
+        width: 70%;
         padding: 0;
         margin: 10px auto;
         float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    
+    }
+    #logo{
+    margin-left: 0px;
+    transform: translateX(-50%);
     }
 }
